@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gamemobile.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TeaActivity"/>
+            <activity android:name=".Tea_beeActivity"/>
+            <activity android:name=".Tea_chanhActivity"/>
+            <activity android:name=".Tea_gungActivity"/>
+            <activity android:name=".Tea_tatActivity"/>
+
+        <activity android:name=".StActivity"/>
+            <activity android:name=".St_dauActivity"/>
+            <activity android:name=".St_boActivity"/>
+            <activity android:name=".St_sapoActivity"/>
+            <activity android:name=".St_vietquatActivity"/>
+
+        <activity android:name=".NeActivity"/>
+            <activity android:name=".Ne_camActivity"/>
+            <activity android:name=".Ne_carotActivity"/>
+            <activity android:name=".Ne_nhoActivity"/>
+            <activity android:name=".Ne_nhadamActivity"/>
+
+        <activity android:name=".CafeActivity"/>
+            <activity android:name=".Cafe_denActivity"/>
+            <activity android:name=".Cafe_suaActivity"/>
+            <activity android:name=".Cafe_bacxiuActivity"/>
+            <activity android:name=".Cafe_capuActivity"/>
+        <activity android:name=".AddmoreActivity"/>
+
+    </application>
+
+</manifest>
